@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/quiz/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-heading">fun with triangles</h1>
+        <ul class="non-bullet">
+            <li><a href="/Triangles/index.html">Is Triangle?</a></li>
+            <li class="tab"><a href="/quiz/index.html">Quiz</a></li>
+            <li><a href="/Hypotenuse/index.html">Hypotenuse</a></li>
+            <li><a href="/Area-of-triangle/index.html">Area of Triangle</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 id="center" class="pb pt">Quiz on triangles</h1>
+        <h3 id="center">For each correct answer you will get 1 point</h3>
+       
+
+            <form onSubmit="return false" action="" id="form-quiz">
+                <div id="question-one"class="margin-bottom pt">
+                    <p class="pb">1. If an Isosceles triangle has two angles that are 76°. Then what is the measure of the vertex angle?</p>
+                    <label><input type="radio" name="question-1" value="39°" required>39°</label>
+                    <label><input type="radio" name="question-1" value="28°" required>28°</label>
+                    <label><input type="radio" name="question-1" value="180°" required>180°</label>
+                </div>
+                <div id="question-two"class="margin-bottom">
+                    <p class="pb">2. The sides of an equilateral triangle have...</p>
+                    <label><input type="radio" name="question-2" value="different measures" required>different measures</label>
+                    <label><input type="radio" name="question-2" value="Febtober" required>Febtober</label>
+                    <label><input type="radio" name="question-2" value="equal measures" required>equal measures</label>
+                </div>
+                <div id="question-three"class="margin-bottom">
+                    <p class="pb">3. What do the angles in an equilateral triangle measure?</p>
+                    <label><input type="radio" name="question-3" value="30, 60, 90" required>30, 60, 90</label>
+                    <label><input type="radio" name="question-3" value="60, 60, 60" required>60, 60, 60</label>
+                    <label><input type="radio" name="question-3" value="45, 45, 90" required>45, 45, 90</label>
+                </div>
+                <div id="question-four"class="margin-bottom">
+                    <p class="pb">4. Isosceles have how many sides that are congruent?</p>
+                    <label><input type="radio" name="question-4" value="2" required>2</label>
+                    <label><input type="radio" name="question-4" value="4" required>4</label>
+                    <label><input type="radio" name="question-4" value="none" required>none</label>
+                </div>
+                <div id="question-five"class="margin-bottom">
+                    <p class="pb">5. What do you call a triangle whose sides are all equal?</p>
+                    <label><input type="radio" name="question-5" value="Equilateral" required>Equilateral</label>
+                    <label><input type="radio" name="question-5" value="Isosceles" required>Isosceles</label>
+                    <label><input type="radio" name="question-5" value="Scalene" required>Scalene</label>
+                </div>
+                <div id="question-six"class="margin-bottom">
+                    <p class="pb">6. Isoscele triangle is defined as</p>
+                    <label><input type="radio" name="question-6" value="Two sides are equal" required>Two sides are equal</label>
+                    <label><input type="radio" name="question-6" value="All sides are equal" required>All sides are equal</label>
+                    <label><input type="radio" name="question-6" value="No sides are equal" required>No sides are equal</label>
+                </div>
+                <div id="question-seven"class="margin-bottom">
+                    <p class="pb">7. The _____________ of an isosceles triangle is the side included between the pair of congruent angles</p>
+                    <label><input type="radio" name="question-7" value="legs" required>legs</label>
+                    <label><input type="radio" name="question-7" value="vertex" required>vertex</label>
+                    <label><input type="radio" name="question-7" value="base" required>base</label>
+                </div>
+                <div id="question-eight"class="margin-bottom">
+                    <p class="pb">8. The angles of an equilateral triangle each measure ______ degrees.</p>
+                    <label><input type="radio" name="question-8" value="60" required>60</label>
+                    <label><input type="radio" name="question-8" value="90" required>90</label>
+                    <label><input type="radio" name="question-8" value="45" required>45</label>
+                </div>
+                <div id="question-nine"class="margin-bottom">
+                    <p class="pb">9. An ________________ triangle is a triangle with 2 congruent sides</p>
+                    <label><input type="radio" name="question-9" value="equilateral" required>equilateral</label>
+                    <label><input type="radio" name="question-9" value="equiangular" required>equiangular</label>
+                    <label><input type="radio" name="question-9" value="isosceles" required>isosceles</label>
+                </div>
+                <div id="question-ten"class="margin-bottom">
+                    <p class="pb">10. The ____________ ___________ is the angle formed by the legs of an isosceles triangle.</p>
+                    <label><input type="radio" name="question-10" value="vertex angle" required>vertex angle</label>
+                    <label><input type="radio" name="question-10" value="base angle" required>base angle</label>
+                    <label><input type="radio" name="question-10" value="congruent angle" required>congruent angle</label>
+                </div>
+                <button id="submit-btn" type="submit">Submit</button>
+            </form>
+     
+            <div id="output"class="center" ></div>
+        </div>
+        <footer>
+            <div class="footer-heading mt">
+                <p class="center inline">© | 2021 | Deepak Goyal</p>
+                <ul class="non-bullet inline ">
+                    <li class="icon-color"><a href="https://github.com/deepak29-git" target="_blank"><img
+                        src="https://img.icons8.com/ios-glyphs/480/000000/github.png" width="60" height="60"
+                        alt="github"></a></li>
+                        <li class="icon-color"><a href="https://twitter.com/deepak887180" target="_blank"><img
+                            src="https://img.icons8.com/ios-glyphs/480/000000/twitter-squared.png" width="60"
+                            height="60" alt="twitter"></a></li>
+                            <li class="icon-color"><a
+                                href="https://www.linkedin.com/in/deepak-goyal-584157179?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4P8c5Iy4QtG2TTuls12D4w%3D%3D"
+                                target="_blank"><img src="https://img.icons8.com/ios-glyphs/480/000000/linkedin.png" width="60"
+                                height="60" alt="linkedin"></a></li>
+                                <li class="icon-color"><a href="https://deepak-goyal-portfolio.netlify.app/" target="_blank"><img
+                                    src="https://img.icons8.com/ios-glyphs/480/000000/portfolio.png" width="60" height="60"
+                                    alt="portfolio"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="/quiz/app.js"></script>
+</html>

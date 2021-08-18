@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/Area-of-triangle/area.png);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.nav-heading{
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+.navbar{
+    background-color: #00BF8F;
+    height: 6rem;
+    color: white;
+    max-width: 100vw;
+    border-bottom-left-radius: 16px;   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}   
+ .non-bullet{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: white;
+    font-size: 20px;
+}
+.tab{
+    font-weight: bold;
+}
+.padding{
+    padding: 25px 0;
+}
+.pb{
+    padding-bottom: 1rem;
+}
+.pt{
+    padding-top: 1rem;
+}
+
+
+ .center{
+    text-align: center;
+}
+input{
+    
+        width: 20%;
+        padding: 12px 8px;
+        border-radius: 8px;
+        outline: none;
+        border-color: #00BF8F;
+    
+}
+
+#calculate-btn{
+    padding: 0.8rem 1rem;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #00BF8F;
+    margin: auto;
+    margin-top: 25px;
+}
+#calculate-btn:hover{
+    background-color: #50eec6;
+}
+
+#output-div{
+text-align: center;
+} */
+.mb{
+    margin-bottom: 1rem;
+}
+.mt{
+    margin-top: 2.1rem;
+}
+.inline{
+    display: flex;
+    justify-content: center;    
+}
+.non-bullet{
+    list-style: none;
+}
+footer{
+    background-color: #00BF8F;
+    padding-top: 0.12px;
+    border-top-left-radius: 20px;
+    margin-top: 3.7rem;
+}

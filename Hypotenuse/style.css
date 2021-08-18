@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/Hypotenuse/hypotenuse.png);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.nav-heading{
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+.navbar{
+    background-color: #00BF8F;
+    height: 6rem;
+    color: white;
+    max-width: 100vw;
+    border-bottom-left-radius: 16px;   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}   
+ .non-bullet{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: white;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+    
+}
+.tab{
+    font-weight: bold;
+}
+.padding{
+    padding: 30px 0;
+}
+.input-number{
+    padding: 8px 5px;
+    outline: none;
+    border: 1.5px solid #00BF8F;
+    border-radius: 8px;
+    width: 18%;
+}
+.font{
+    font-size: 20px;
+}
+#submit-btn{
+    padding: 10px 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #00BF8F;
+}
+#submit-btn:hover{
+    background-color: #56ffd5;
+}
+
+.mb{
+    margin-bottom: 1rem;
+}
+.mt{
+    margin-top: 2.1rem;
+}
+.inline{
+    display: flex;
+    justify-content: center;    
+}
+.non-bullet{
+    list-style: none;
+}
+footer{
+    background-color: #00BF8F;
+    padding-top: 0.12px;
+    border-top-left-radius: 20px;
+    margin-top: 3.7rem;
+}
