@@ -17,7 +17,6 @@ function calculateResult(){
         if(Number((inputNumber[0].value))=="" || Number((inputNumber[1].value))==""){
             outputDiv.innerText="Please fill all the fields";
         }else{
-
             outputDiv.innerText="Length of Hypotanuse(c)= "+squareOfNumber;
         }
     }
