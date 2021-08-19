@@ -17,7 +17,6 @@ body{
 }
 .navbar{
     background-color: #00BF8F;
-    height: 6rem;
     color: white;
     max-width: 100vw;
     border-bottom-left-radius: 16px;   
@@ -26,6 +25,7 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     padding-top: 15px;
+    padding-bottom: 10px;
 }   
  .non-bullet{
     list-style: none;
@@ -59,7 +59,6 @@ label{
     margin-top: 12px;
 }
 .angle{
-    width: 20%;
     padding: 12px 8px;
     border-radius: 8px;
     outline: none;
@@ -68,7 +67,6 @@ label{
 }
 
 #check-btn{
-    max-width: 10%;
     padding: 0.8rem 1rem;
     border: 1px solid black;
     font-size: 15px;
